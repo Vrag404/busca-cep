@@ -78,6 +78,15 @@
     font-weight: bold;
 }
 
+.footer {
+    margin-top: 10px;
+    color: #f1f1f1;
+}
+
+.footer a {
+    color: #c2b4b4
+}
+
 @media (max-width: 620px) {
     .title {
         font-size: 60px;

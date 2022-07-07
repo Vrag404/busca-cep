@@ -52,7 +52,12 @@ function App() {
         <span title='Cidade e Estado'>{cep.localidade} - {cep.uf}</span>
       </main>
       )}
-  
+
+      <footer className='footer'>
+        <p>
+        Criado por <a href='https://www.linkedin.com/in/diegohoc/' rel='noreferrer' target='_blank'>Diego Costa</a>
+        </p>
+      </footer>
     </div>
   );
 }
